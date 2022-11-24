@@ -132,7 +132,15 @@
 					"strict" : false
 				},
 				{
+					"name" : "finished",
+					"strict" : false
+				},
+				{
 					"name" : "clk",
+					"strict" : false
+				},
+				{
+					"name" : "rst",
 					"strict" : false
 				},
 				{
@@ -141,6 +149,10 @@
 				},
 				{
 					"name" : "X[62]",
+					"strict" : false
+				},
+				{
+					"name" : "X[32]",
 					"strict" : false
 				},
 				{
@@ -260,10 +272,6 @@
 					"strict" : false
 				},
 				{
-					"name" : "X[32]",
-					"strict" : false
-				},
-				{
 					"name" : "X[31]",
 					"strict" : false
 				},
@@ -320,11 +328,11 @@
 					"strict" : false
 				},
 				{
-					"name" : "X[16]",
+					"name" : "X[17]",
 					"strict" : false
 				},
 				{
-					"name" : "X[17]",
+					"name" : "X[16]",
 					"strict" : false
 				},
 				{
@@ -389,6 +397,10 @@
 				},
 				{
 					"name" : "X[0]",
+					"strict" : false
+				},
+				{
+					"name" : "start",
 					"strict" : false
 				}
 			]

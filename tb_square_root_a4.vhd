@@ -26,14 +26,14 @@ begin
 		);
 		
 		X <= to_unsigned(4, 2*n) after 0 ns, 
-				(16 => '1',others => '0') after 75 ns, 
-				(32 => '1',others => '0') after 95 ns, 
-				(48 => '1',others => '0') after 115 ns,
-				(63 => '1',others => '0') after 135 ns;
+				(16 => '1',others => '0') after 90 ns, 
+				(32 => '1',others => '0') after 110 ns, 
+				(48 => '1',others => '0') after 130 ns,
+				(63 => '1',others => '0') after 150 ns;
 				
 --		X	<= (others => '0'), to_unsigned(9,2*n) after 75 ns;
 		clk 	<= not clk after 10 ns;
 		rst 	<= '0', '1' after 20 ns;
-		start	<=	'0', '1' after 40 ns, '0' after 500 ns;
+		start	<=	'0', '1' after 40 ns, '0' after 170 ns;
 		
 end architecture a1;
