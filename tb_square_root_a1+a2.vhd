@@ -27,7 +27,7 @@ begin
 						Result	=> Result,
 						finished	=> finished
 		);
-		
+
 		rom(0)	<=	(2 => '1', others => '0');
 		rom(1)	<=	(16 => '1', others => '0');
 		rom(2)	<=	(32 => '1', others => '0');
