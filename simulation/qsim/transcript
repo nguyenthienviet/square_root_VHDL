@@ -1,0 +1,35 @@
+# do sqroot.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Errors: 0, Warnings: 1
+# QuestaSim-64 vcom 2020.3 Compiler 2020.07 Jul 12 2020
+# Start time: 10:32:05 on Nov 07,2022
+# vcom -work work sqroot.vho 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package VITAL_Timing
+# -- Loading package VITAL_Primitives
+# -- Loading package dffeas_pack
+# -- Loading package altera_primitives_components
+# -- Loading package altera_lnsim_components
+# -- Loading package cyclonev_atom_pack
+# -- Loading package cyclonev_components
+# -- Compiling entity square_root
+# -- Compiling architecture structure of square_root
+# End time: 10:32:05 on Nov 07,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vcom 2020.3 Compiler 2020.07 Jul 12 2020
+# Start time: 10:32:05 on Nov 07,2022
+# vcom -work work Waveform.vwf.vht 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity square_root_vhd_vec_tst
+# -- Compiling architecture square_root_arch of square_root_vhd_vec_tst
+# End time: 10:32:06 on Nov 07,2022, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# ** Error (suppressible): (vsim-SDF-3196) Failed to find SDF file "sqroot_vhd.sdo".
+# Use the -help option for complete vsim usage.
+# vsim -novopt -c -t 1ps -sdfmax "square_root_vhd_vec_tst/i1=sqroot_vhd.sdo" -L cyclonev -L altera -L altera_mf -L 220model -L sgate -L altera_lnsim work.square_root_vhd_vec_tst 
+# Error loading design
+# Errors: 1, Warnings: 0
