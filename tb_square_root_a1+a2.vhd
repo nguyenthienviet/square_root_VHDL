@@ -19,7 +19,7 @@ architecture a1 of tb_square_root is
 		signal	rom		:	rom_type;
 		signal	cnt		:	integer range 0 to 4 := 0;
 begin
-		UUT: entity work.square_root(a1)
+		UUT: entity work.square_root(a2)
 		port map	(	clk		=> clk,
 						rst		=> rst,
 						start		=> start,
