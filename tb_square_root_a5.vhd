@@ -28,11 +28,10 @@ begin
 						finished	=> finished
 		);
 		
-		rom(0)	<=	(2 => '1', others => '0');
-		rom(1)	<=	(16 => '1', others => '0');
-		rom(2)	<=	(32 => '1', others => '0');
-		rom(3)	<=	(48 => '1', others => '0');
-		rom(4)	<=	(63 => '1', others => '0');
+		rom(0)	<=	(16 => '1', others => '0');
+		rom(1)	<=	(32 => '1', others => '0');
+		rom(2)	<=	(48 => '1', others => '0');
+		rom(3)	<=	(63 => '1', others => '0');
 		
 		clk 	<= not clk after 10 ns;
 		rst 	<= '0', '1' after 20 ns;
@@ -46,7 +45,7 @@ begin
 				if (finished = '1' and start = '1') then
 					start <= '0';
 					X <= rom(cnt);
-					if (cnt < 4) then cnt <= cnt+1; end if;
+					if (cnt < 3) then cnt <= cnt+1; end if;
 				end if;
 			end if;
 		end process;

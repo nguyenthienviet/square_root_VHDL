@@ -1,6 +1,12 @@
 
 State Machine - |square_root|state
-Name state.done state.compute state.idle 
-state.idle 0 0 0 
-state.compute 0 1 1 
-state.done 1 0 1 
+Name state.S_done state.S_6 state.S_5 state.S_4 state.S_3 state.S_2 state.S_1 state.S_init state.S_idle 
+state.S_idle 0 0 0 0 0 0 0 0 0 
+state.S_init 0 0 0 0 0 0 0 1 1 
+state.S_1 0 0 0 0 0 0 1 0 1 
+state.S_2 0 0 0 0 0 1 0 0 1 
+state.S_3 0 0 0 0 1 0 0 0 1 
+state.S_4 0 0 0 1 0 0 0 0 1 
+state.S_5 0 0 1 0 0 0 0 0 1 
+state.S_6 0 1 0 0 0 0 0 0 1 
+state.S_done 1 0 0 0 0 0 0 0 1 
