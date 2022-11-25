@@ -1,2 +1,2 @@
 # square_root_VHDL
-4 generic square root computing architectures using VHDL based on the Newton's method and iterative algorithm
+5 generic square root computing architectures using VHDL based on the Newton's method and iterative algorithm
