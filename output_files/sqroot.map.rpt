@@ -1,5 +1,5 @@
-Analysis & Synthesis report for sqroot
-Fri Nov 25 01:01:31 2022
+Analysis & Elaboration report for sqroot
+Mon Nov 28 11:56:17 2022
 Quartus Prime Version 21.1.1 Build 850 06/23/2022 SJ Standard Edition
 
 
@@ -7,26 +7,11 @@ Quartus Prime Version 21.1.1 Build 850 06/23/2022 SJ Standard Edition
 ; Table of Contents ;
 ---------------------
   1. Legal Notice
-  2. Analysis & Synthesis Summary
-  3. Analysis & Synthesis Settings
-  4. Parallel Compilation
-  5. Analysis & Synthesis Source Files Read
-  6. Analysis & Synthesis Resource Usage Summary
-  7. Analysis & Synthesis Resource Utilization by Entity
-  8. State Machine - |square_root|state
-  9. Registers Removed During Synthesis
- 10. Removed Registers Triggering Further Register Optimizations
- 11. General Register Statistics
- 12. Multiplexer Restructuring Statistics (Restructuring Performed)
- 13. Parameter Settings for User Entity Instance: Top-level Entity: |square_root
- 14. Parameter Settings for User Entity Instance: register_a5:reg_M
- 15. Parameter Settings for User Entity Instance: register_a5:reg_Z
- 16. Parameter Settings for User Entity Instance: register_a5:reg_V
- 17. Port Connectivity Checks: "register_a5:reg_V"
- 18. Port Connectivity Checks: "register_a5:reg_Z"
- 19. Post-Synthesis Netlist Statistics for Top Partition
- 20. Elapsed Time Per Partition
- 21. Analysis & Synthesis Messages
+  2. Analysis & Elaboration Summary
+  3. Parallel Compilation
+  4. Parameter Settings for User Entity Instance: Top-level Entity: |square_root
+  5. Analysis & Elaboration Settings
+  6. Analysis & Elaboration Messages
 
 
 
@@ -50,31 +35,52 @@ https://fpgasoftware.intel.com/eula.
 
 
 
-+-----------------------------------------------------------------------------------+
-; Analysis & Synthesis Summary                                                      ;
-+---------------------------------+-------------------------------------------------+
-; Analysis & Synthesis Status     ; Successful - Fri Nov 25 01:01:31 2022           ;
-; Quartus Prime Version           ; 21.1.1 Build 850 06/23/2022 SJ Standard Edition ;
-; Revision Name                   ; sqroot                                          ;
-; Top-level Entity Name           ; square_root                                     ;
-; Family                          ; Cyclone V                                       ;
-; Logic utilization (in ALMs)     ; N/A                                             ;
-; Total registers                 ; 206                                             ;
-; Total pins                      ; 100                                             ;
-; Total virtual pins              ; 0                                               ;
-; Total block memory bits         ; 0                                               ;
-; Total DSP Blocks                ; 0                                               ;
-; Total HSSI RX PCSs              ; 0                                               ;
-; Total HSSI PMA RX Deserializers ; 0                                               ;
-; Total HSSI TX PCSs              ; 0                                               ;
-; Total HSSI PMA TX Serializers   ; 0                                               ;
-; Total PLLs                      ; 0                                               ;
-; Total DLLs                      ; 0                                               ;
-+---------------------------------+-------------------------------------------------+
++---------------------------------------------------------------------------------+
+; Analysis & Elaboration Summary                                                  ;
++-------------------------------+-------------------------------------------------+
+; Analysis & Elaboration Status ; Successful - Mon Nov 28 11:56:17 2022           ;
+; Quartus Prime Version         ; 21.1.1 Build 850 06/23/2022 SJ Standard Edition ;
+; Revision Name                 ; sqroot                                          ;
+; Top-level Entity Name         ; square_root                                     ;
+; Family                        ; Cyclone V                                       ;
+; Logic utilization (in ALMs)   ; N/A until Partition Merge                       ;
+; Total registers               ; N/A until Partition Merge                       ;
+; Total pins                    ; N/A until Partition Merge                       ;
+; Total virtual pins            ; N/A until Partition Merge                       ;
+; Total block memory bits       ; N/A until Partition Merge                       ;
+; Total PLLs                    ; N/A until Partition Merge                       ;
+; Total DLLs                    ; N/A until Partition Merge                       ;
++-------------------------------+-------------------------------------------------+
+
+
++------------------------------------------+
+; Parallel Compilation                     ;
++----------------------------+-------------+
+; Processors                 ; Number      ;
++----------------------------+-------------+
+; Number detected on machine ; 48          ;
+; Maximum allowed            ; 16          ;
+;                            ;             ;
+; Average used               ; 1.00        ;
+; Maximum used               ; 1           ;
+;                            ;             ;
+; Usage by Processor         ; % Time Used ;
+;     Processor 1            ; 100.0%      ;
++----------------------------+-------------+
+
+
++-----------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: Top-level Entity: |square_root ;
++----------------+-------+----------------------------------------------------+
+; Parameter Name ; Value ; Type                                               ;
++----------------+-------+----------------------------------------------------+
+; n              ; 32    ; Signed Integer                                     ;
++----------------+-------+----------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
 
 +---------------------------------------------------------------------------------------------------------------------------+
-; Analysis & Synthesis Settings                                                                                             ;
+; Analysis & Elaboration Settings                                                                                           ;
 +---------------------------------------------------------------------------------+--------------------+--------------------+
 ; Option                                                                          ; Setting            ; Default Value      ;
 +---------------------------------------------------------------------------------+--------------------+--------------------+
@@ -160,282 +166,27 @@ https://fpgasoftware.intel.com/eula.
 +---------------------------------------------------------------------------------+--------------------+--------------------+
 
 
-+------------------------------------------+
-; Parallel Compilation                     ;
-+----------------------------+-------------+
-; Processors                 ; Number      ;
-+----------------------------+-------------+
-; Number detected on machine ; 48          ;
-; Maximum allowed            ; 16          ;
-;                            ;             ;
-; Average used               ; 1.00        ;
-; Maximum used               ; 16          ;
-;                            ;             ;
-; Usage by Processor         ; % Time Used ;
-;     Processor 1            ; 100.0%      ;
-;     Processors 2-16        ;   0.0%      ;
-+----------------------------+-------------+
-
-
-+----------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Analysis & Synthesis Source Files Read                                                                                                                   ;
-+----------------------------------+-----------------+-----------------+-------------------------------------------------------------------------+---------+
-; File Name with User-Entered Path ; Used in Netlist ; File Type       ; File Name with Absolute Path                                            ; Library ;
-+----------------------------------+-----------------+-----------------+-------------------------------------------------------------------------+---------+
-; register_a5.vhd                  ; yes             ; User VHDL File  ; /cal/exterieurs/thien-22/Desktop/02_ICS/ADE/MProject/register_a5.vhd    ;         ;
-; square_root_a5.vhd               ; yes             ; User VHDL File  ; /cal/exterieurs/thien-22/Desktop/02_ICS/ADE/MProject/square_root_a5.vhd ;         ;
-+----------------------------------+-----------------+-----------------+-------------------------------------------------------------------------+---------+
-
-
-+-----------------------------------------------------+
-; Analysis & Synthesis Resource Usage Summary         ;
-+---------------------------------------------+-------+
-; Resource                                    ; Usage ;
-+---------------------------------------------+-------+
-; Estimate of Logic utilization (ALMs needed) ; 182   ;
-;                                             ;       ;
-; Combinational ALUT usage for logic          ; 253   ;
-;     -- 7 input functions                    ; 0     ;
-;     -- 6 input functions                    ; 0     ;
-;     -- 5 input functions                    ; 208   ;
-;     -- 4 input functions                    ; 12    ;
-;     -- <=3 input functions                  ; 33    ;
-;                                             ;       ;
-; Dedicated logic registers                   ; 206   ;
-;                                             ;       ;
-; I/O pins                                    ; 100   ;
-;                                             ;       ;
-; Total DSP Blocks                            ; 0     ;
-;                                             ;       ;
-; Maximum fan-out node                        ; ldZ~0 ;
-; Maximum fan-out                             ; 272   ;
-; Total fan-out                               ; 2446  ;
-; Average fan-out                             ; 3.71  ;
-+---------------------------------------------+-------+
-
-
-+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Analysis & Synthesis Resource Utilization by Entity                                                                                                                                               ;
-+----------------------------+---------------------+---------------------------+-------------------+------------+------+--------------+--------------------------------+-------------+--------------+
-; Compilation Hierarchy Node ; Combinational ALUTs ; Dedicated Logic Registers ; Block Memory Bits ; DSP Blocks ; Pins ; Virtual Pins ; Full Hierarchy Name            ; Entity Name ; Library Name ;
-+----------------------------+---------------------+---------------------------+-------------------+------------+------+--------------+--------------------------------+-------------+--------------+
-; |square_root               ; 253 (248)           ; 206 (46)                  ; 0                 ; 0          ; 100  ; 0            ; |square_root                   ; square_root ; work         ;
-;    |register_a5:reg_M|     ; 1 (1)               ; 64 (64)                   ; 0                 ; 0          ; 0    ; 0            ; |square_root|register_a5:reg_M ; register_a5 ; work         ;
-;    |register_a5:reg_V|     ; 2 (2)               ; 32 (32)                   ; 0                 ; 0          ; 0    ; 0            ; |square_root|register_a5:reg_V ; register_a5 ; work         ;
-;    |register_a5:reg_Z|     ; 2 (2)               ; 64 (64)                   ; 0                 ; 0          ; 0    ; 0            ; |square_root|register_a5:reg_Z ; register_a5 ; work         ;
-+----------------------------+---------------------+---------------------------+-------------------+------------+------+--------------+--------------------------------+-------------+--------------+
-Note: For table entries with two numbers listed, the numbers in parentheses indicate the number of resources of the given type used by the specific entity alone. The numbers listed outside of parentheses indicate the total resources of the given type used by the specific entity and all of its sub-entities in the hierarchy.
-
-
-Encoding Type:  One-Hot
-+-----------------------------------------------------------------------------------------------------------------------------------+
-; State Machine - |square_root|state                                                                                                ;
-+--------------+--------------+-----------+-----------+-----------+-----------+-----------+-----------+--------------+--------------+
-; Name         ; state.S_done ; state.S_6 ; state.S_5 ; state.S_4 ; state.S_3 ; state.S_2 ; state.S_1 ; state.S_init ; state.S_idle ;
-+--------------+--------------+-----------+-----------+-----------+-----------+-----------+-----------+--------------+--------------+
-; state.S_idle ; 0            ; 0         ; 0         ; 0         ; 0         ; 0         ; 0         ; 0            ; 0            ;
-; state.S_init ; 0            ; 0         ; 0         ; 0         ; 0         ; 0         ; 0         ; 1            ; 1            ;
-; state.S_1    ; 0            ; 0         ; 0         ; 0         ; 0         ; 0         ; 1         ; 0            ; 1            ;
-; state.S_2    ; 0            ; 0         ; 0         ; 0         ; 0         ; 1         ; 0         ; 0            ; 1            ;
-; state.S_3    ; 0            ; 0         ; 0         ; 0         ; 1         ; 0         ; 0         ; 0            ; 1            ;
-; state.S_4    ; 0            ; 0         ; 0         ; 1         ; 0         ; 0         ; 0         ; 0            ; 1            ;
-; state.S_5    ; 0            ; 0         ; 1         ; 0         ; 0         ; 0         ; 0         ; 0            ; 1            ;
-; state.S_6    ; 0            ; 1         ; 0         ; 0         ; 0         ; 0         ; 0         ; 0            ; 1            ;
-; state.S_done ; 1            ; 0         ; 0         ; 0         ; 0         ; 0         ; 0         ; 0            ; 1            ;
-+--------------+--------------+-----------+-----------+-----------+-----------+-----------+-----------+--------------+--------------+
-
-
-+----------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Registers Removed During Synthesis                                                                                                                       ;
-+-----------------------------------------------------------------------------------------------------------------+----------------------------------------+
-; Register name                                                                                                   ; Reason for Removal                     ;
-+-----------------------------------------------------------------------------------------------------------------+----------------------------------------+
-; register_a5:reg_V|R[1,3,5,7,9,11,13,15,17,19,21,23,25,27,29,31,33,35,37,39,41,43,45,47,49,51,53,55,57,59,61,63] ; Stuck at GND due to stuck port data_in ;
-; Total Number of Removed Registers = 32                                                                          ;                                        ;
-+-----------------------------------------------------------------------------------------------------------------+----------------------------------------+
-
-
-+----------------------------------------------------------------------------------------------------------------------------------+
-; Removed Registers Triggering Further Register Optimizations                                                                      ;
-+-------------------------+---------------------------+----------------------------------------------------------------------------+
-; Register name           ; Reason for Removal        ; Registers Removed due to This Register                                     ;
-+-------------------------+---------------------------+----------------------------------------------------------------------------+
-; register_a5:reg_V|R[63] ; Stuck at GND              ; register_a5:reg_V|R[61], register_a5:reg_V|R[59], register_a5:reg_V|R[57], ;
-;                         ; due to stuck port data_in ; register_a5:reg_V|R[55], register_a5:reg_V|R[53], register_a5:reg_V|R[51], ;
-;                         ;                           ; register_a5:reg_V|R[49], register_a5:reg_V|R[47], register_a5:reg_V|R[45], ;
-;                         ;                           ; register_a5:reg_V|R[43], register_a5:reg_V|R[41], register_a5:reg_V|R[39], ;
-;                         ;                           ; register_a5:reg_V|R[37], register_a5:reg_V|R[35], register_a5:reg_V|R[33], ;
-;                         ;                           ; register_a5:reg_V|R[31], register_a5:reg_V|R[29], register_a5:reg_V|R[27], ;
-;                         ;                           ; register_a5:reg_V|R[25], register_a5:reg_V|R[23], register_a5:reg_V|R[21], ;
-;                         ;                           ; register_a5:reg_V|R[19], register_a5:reg_V|R[17], register_a5:reg_V|R[15], ;
-;                         ;                           ; register_a5:reg_V|R[13], register_a5:reg_V|R[11], register_a5:reg_V|R[9],  ;
-;                         ;                           ; register_a5:reg_V|R[7], register_a5:reg_V|R[5], register_a5:reg_V|R[3],    ;
-;                         ;                           ; register_a5:reg_V|R[1]                                                     ;
-+-------------------------+---------------------------+----------------------------------------------------------------------------+
-
-
-+------------------------------------------------------+
-; General Register Statistics                          ;
-+----------------------------------------------+-------+
-; Statistic                                    ; Value ;
-+----------------------------------------------+-------+
-; Total registers                              ; 206   ;
-; Number of registers using Synchronous Clear  ; 95    ;
-; Number of registers using Synchronous Load   ; 128   ;
-; Number of registers using Asynchronous Clear ; 9     ;
-; Number of registers using Asynchronous Load  ; 0     ;
-; Number of registers using Clock Enable       ; 195   ;
-; Number of registers using Preset             ; 0     ;
-+----------------------------------------------+-------+
-
-
-+----------------------------------------------------------------------------------------------------------------------------------------------------+
-; Multiplexer Restructuring Statistics (Restructuring Performed)                                                                                     ;
-+--------------------+-----------+---------------+----------------------+------------------------+------------+--------------------------------------+
-; Multiplexer Inputs ; Bus Width ; Baseline Area ; Area if Restructured ; Saving if Restructured ; Registered ; Example Multiplexer Output           ;
-+--------------------+-----------+---------------+----------------------+------------------------+------------+--------------------------------------+
-; 3:1                ; 64 bits   ; 128 LEs       ; 0 LEs                ; 128 LEs                ; Yes        ; |square_root|register_a5:reg_M|R[0]  ;
-; 3:1                ; 31 bits   ; 62 LEs        ; 0 LEs                ; 62 LEs                 ; Yes        ; |square_root|register_a5:reg_V|R[60] ;
-; 3:1                ; 5 bits    ; 10 LEs        ; 5 LEs                ; 5 LEs                  ; Yes        ; |square_root|i[3]                    ;
-; 4:1                ; 63 bits   ; 126 LEs       ; 0 LEs                ; 126 LEs                ; Yes        ; |square_root|register_a5:reg_Z|R[52] ;
-; 3:1                ; 91 bits   ; 182 LEs       ; 182 LEs              ; 0 LEs                  ; No         ; |square_root|A[13]                   ;
-; 3:1                ; 5 bits    ; 10 LEs        ; 10 LEs               ; 0 LEs                  ; No         ; |square_root|A[4]                    ;
-+--------------------+-----------+---------------+----------------------+------------------------+------------+--------------------------------------+
-
-
-+-----------------------------------------------------------------------------+
-; Parameter Settings for User Entity Instance: Top-level Entity: |square_root ;
-+----------------+-------+----------------------------------------------------+
-; Parameter Name ; Value ; Type                                               ;
-+----------------+-------+----------------------------------------------------+
-; n              ; 32    ; Signed Integer                                     ;
-+----------------+-------+----------------------------------------------------+
-Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
-
-
-+----------------------------------------------------------------+
-; Parameter Settings for User Entity Instance: register_a5:reg_M ;
-+----------------+-------+---------------------------------------+
-; Parameter Name ; Value ; Type                                  ;
-+----------------+-------+---------------------------------------+
-; n              ; 32    ; Signed Integer                        ;
-+----------------+-------+---------------------------------------+
-Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
-
-
-+----------------------------------------------------------------+
-; Parameter Settings for User Entity Instance: register_a5:reg_Z ;
-+----------------+-------+---------------------------------------+
-; Parameter Name ; Value ; Type                                  ;
-+----------------+-------+---------------------------------------+
-; n              ; 32    ; Signed Integer                        ;
-+----------------+-------+---------------------------------------+
-Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
-
-
-+----------------------------------------------------------------+
-; Parameter Settings for User Entity Instance: register_a5:reg_V ;
-+----------------+-------+---------------------------------------+
-; Parameter Name ; Value ; Type                                  ;
-+----------------+-------+---------------------------------------+
-; n              ; 32    ; Signed Integer                        ;
-+----------------+-------+---------------------------------------+
-Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
-
-
-+-----------------------------------------------------+
-; Port Connectivity Checks: "register_a5:reg_V"       ;
-+-------------------+-------+----------+--------------+
-; Port              ; Type  ; Severity ; Details      ;
-+-------------------+-------+----------+--------------+
-; init_value[61..0] ; Input ; Info     ; Stuck at GND ;
-; init_value[63]    ; Input ; Info     ; Stuck at GND ;
-; init_value[62]    ; Input ; Info     ; Stuck at VCC ;
-; p[63..62]         ; Input ; Info     ; Stuck at GND ;
-+-------------------+-------+----------+--------------+
-
-
-+-----------------------------------------------+
-; Port Connectivity Checks: "register_a5:reg_Z" ;
-+------------+-------+----------+---------------+
-; Port       ; Type  ; Severity ; Details       ;
-+------------+-------+----------+---------------+
-; init_value ; Input ; Info     ; Stuck at GND  ;
-+------------+-------+----------+---------------+
-
-
-+-----------------------------------------------------+
-; Post-Synthesis Netlist Statistics for Top Partition ;
-+-----------------------+-----------------------------+
-; Type                  ; Count                       ;
-+-----------------------+-----------------------------+
-; arriav_ff             ; 206                         ;
-;     CLR               ; 9                           ;
-;     ENA               ; 37                          ;
-;     ENA SCLR          ; 31                          ;
-;     ENA SCLR SLD      ; 63                          ;
-;     ENA SLD           ; 64                          ;
-;     SCLR              ; 1                           ;
-;     SLD               ; 1                           ;
-; arriav_lcell_comb     ; 253                         ;
-;     arith             ; 194                         ;
-;         0 data inputs ; 1                           ;
-;         2 data inputs ; 13                          ;
-;         4 data inputs ; 7                           ;
-;         5 data inputs ; 173                         ;
-;     normal            ; 59                          ;
-;         2 data inputs ; 15                          ;
-;         3 data inputs ; 4                           ;
-;         4 data inputs ; 5                           ;
-;         5 data inputs ; 35                          ;
-; boundary_port         ; 100                         ;
-;                       ;                             ;
-; Max LUT depth         ; 10.30                       ;
-; Average LUT depth     ; 6.11                        ;
-+-----------------------+-----------------------------+
-
-
-+-------------------------------+
-; Elapsed Time Per Partition    ;
-+----------------+--------------+
-; Partition Name ; Elapsed Time ;
-+----------------+--------------+
-; Top            ; 00:00:01     ;
-+----------------+--------------+
-
-
-+-------------------------------+
-; Analysis & Synthesis Messages ;
-+-------------------------------+
++---------------------------------+
+; Analysis & Elaboration Messages ;
++---------------------------------+
 Info: *******************************************************************
-Info: Running Quartus Prime Analysis & Synthesis
+Info: Running Quartus Prime Analysis & Elaboration
     Info: Version 21.1.1 Build 850 06/23/2022 SJ Standard Edition
-    Info: Processing started: Fri Nov 25 01:01:19 2022
-Info: Command: quartus_map --read_settings_files=on --write_settings_files=off sqroot -c sqroot
+    Info: Processing started: Mon Nov 28 11:56:06 2022
+Info: Command: quartus_map --read_settings_files=on --write_settings_files=off sqroot -c sqroot --analysis_and_elaboration
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Info (20030): Parallel compilation is enabled and will use 16 of the 24 processors detected
-Info (12021): Found 2 design units, including 1 entities, in source file register_a5.vhd
-    Info (12022): Found design unit 1: register_a5-a1 File: /cal/exterieurs/thien-22/Desktop/02_ICS/ADE/MProject/register_a5.vhd Line: 19
-    Info (12023): Found entity 1: register_a5 File: /cal/exterieurs/thien-22/Desktop/02_ICS/ADE/MProject/register_a5.vhd Line: 5
-Info (12021): Found 2 design units, including 1 entities, in source file square_root_a5.vhd
-    Info (12022): Found design unit 1: square_root-a5 File: /cal/exterieurs/thien-22/Desktop/02_ICS/ADE/MProject/square_root_a5.vhd Line: 19
-    Info (12023): Found entity 1: square_root File: /cal/exterieurs/thien-22/Desktop/02_ICS/ADE/MProject/square_root_a5.vhd Line: 5
-Info (12021): Found 2 design units, including 1 entities, in source file tb_square_root_a5.vhd
-    Info (12022): Found design unit 1: tb_square_root-a1 File: /cal/exterieurs/thien-22/Desktop/02_ICS/ADE/MProject/tb_square_root_a5.vhd Line: 11
-    Info (12023): Found entity 1: tb_square_root File: /cal/exterieurs/thien-22/Desktop/02_ICS/ADE/MProject/tb_square_root_a5.vhd Line: 5
+Info (12021): Found 2 design units, including 1 entities, in source file square_root_a2.vhd
+    Info (12022): Found design unit 1: square_root-a2 File: /cal/exterieurs/thien-22/Desktop/02_ICS/ADE/MProject/square_root_a2.vhd Line: 19
+    Info (12023): Found entity 1: square_root File: /cal/exterieurs/thien-22/Desktop/02_ICS/ADE/MProject/square_root_a2.vhd Line: 5
+Info (12021): Found 2 design units, including 1 entities, in source file tb_square_root_a1+a2.vhd
+    Info (12022): Found design unit 1: tb_square_root-a1 File: /cal/exterieurs/thien-22/Desktop/02_ICS/ADE/MProject/tb_square_root_a1+a2.vhd Line: 11
+    Info (12023): Found entity 1: tb_square_root File: /cal/exterieurs/thien-22/Desktop/02_ICS/ADE/MProject/tb_square_root_a1+a2.vhd Line: 5
 Info (12127): Elaborating entity "square_root" for the top level hierarchy
-Info (12129): Elaborating entity "register_a5" using architecture "A:a1" for hierarchy "register_a5:reg_M" File: /cal/exterieurs/thien-22/Desktop/02_ICS/ADE/MProject/square_root_a5.vhd Line: 99
-Info (286030): Timing-Driven Synthesis is running
-Info (16010): Generating hard_block partition "hard_block:auto_generated_inst"
-    Info (16011): Adding 0 node(s), including 0 DDIO, 0 PLL, 0 transceiver and 0 LCELL
-Info (21057): Implemented 546 device resources after synthesis - the final resource count might be different
-    Info (21058): Implemented 67 input pins
-    Info (21059): Implemented 33 output pins
-    Info (21061): Implemented 446 logic cells
-Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 1 warning
-    Info: Peak virtual memory: 568 megabytes
-    Info: Processing ended: Fri Nov 25 01:01:31 2022
-    Info: Elapsed time: 00:00:12
-    Info: Total CPU time (on all processors): 00:00:25
+Info: Quartus Prime Analysis & Elaboration was successful. 0 errors, 1 warning
+    Info: Peak virtual memory: 823 megabytes
+    Info: Processing ended: Mon Nov 28 11:56:17 2022
+    Info: Elapsed time: 00:00:11
+    Info: Total CPU time (on all processors): 00:00:23
 
 

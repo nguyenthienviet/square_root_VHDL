@@ -7,11 +7,11 @@ entity square_root is
 		n	: integer := 32
 		);
 	port (
-		clk		:	in 	std_logic;
-		rst		:	in		std_logic;
+		clk			:	in 	std_logic;
+		rst			:	in		std_logic;
 		start		:	in		std_logic;
 		X			:	in 	unsigned (2*n-1 downto 0);
-		Result	:	out	unsigned (n-1 downto 0);
+		Result		:	out	unsigned (n-1 downto 0);
 		finished	:	out	std_logic
 		);
 end entity square_root;
@@ -25,7 +25,7 @@ begin
 		variable	next_guess		:	unsigned (2*n-1 downto 0); 			-- the updated value of root which is closer to the final result
 	begin
 		if (rst = '0') then
-			state				<=	idle;
+			state			<=	idle;
 			current_guess	:= (0 => '1', others => '0');
 			next_guess		:= (0 => '1', others => '0');
 			finished 		<= '0';
@@ -48,10 +48,10 @@ begin
 						next_guess := (current_guess + X/current_guess)/2; 		-- caculating the closer square root
 						if (next_guess = current_guess) then 							-- if two consecutive guess values are the same, stop to get the solution
 							state		<=	done;
-							Result 	<= next_guess(n-1 downto 0);
+							Result 		<= next_guess(n-1 downto 0);
 							finished	<= '1';
 						else 
-							state				<= compute;
+							state			<= compute;
 							current_guess	:= next_guess;
 						end if;
 					else
@@ -62,7 +62,7 @@ begin
 					if (start = '1') then
 						state <= done;
 					else
-						state 	<=	idle;
+						state 	 <=	idle;
 						finished <= '0';
 					end if;
 			end case;

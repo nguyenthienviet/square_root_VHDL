@@ -21,7 +21,6 @@ architecture a5 of square_root is
 	signal	state	:	statetype;
 
 	signal	M		:	unsigned	(2*n-1 downto 0);				-- variable N in Figure.2
-	-- signal	PM		:	unsigned	(2*n-1 downto 0);
 	signal	V		:	unsigned	(2*n-1 downto 0);				-- the value of hypothesis test - V in Figure.2
 	signal	PV		:	unsigned	(2*n-1 downto 0);
 	signal 	Z		:	unsigned	(2*n-1 downto 0);				-- the current result estimation - Z in Figure.2
@@ -36,7 +35,6 @@ architecture a5 of square_root is
 	signal	ldZ		:	std_logic;
 	signal	ldV		:	std_logic;
 	signal	ldi		:	std_logic;
-	-- signal	selM	:	std_logic;
 	signal	selA	:	std_logic_vector (1 downto 0);
 	signal	selB	:	std_logic_vector (1 downto 0);
 	signal	selZ	:	std_logic;
