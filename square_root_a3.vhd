@@ -15,12 +15,12 @@ end entity square_root;
 architecture a3 of square_root is
 	type		reg_type	is array (0 to n) of unsigned (2*n-1 downto 0);
 	type		reg_type2	is array (0 to n-1) of unsigned (2*n-1 downto 0);
-	signal	M			:	reg_type;
-	signal	V			:	reg_type;
-	signal	Z			:	reg_type;
-	signal	Z_tmp		:	reg_type2;												-- store the intermediate value of Z
-	signal	Z_half		:	reg_type2;												-- Z_half = Z/2 - pre-calculate to reduce the number of the caculation of Z/2
-	signal 	comp		:	unsigned(n-1 downto 0);
+	signal	M		:	reg_type;
+	signal	V		:	reg_type;
+	signal	Z		:	reg_type;
+	signal	Z_tmp	:	reg_type2;												-- store the intermediate value of Z
+	signal	Z_half	:	reg_type2;												-- Z_half = Z/2 - pre-calculate to reduce the number of the caculation of Z/2
+	signal 	comp	:	unsigned(n-1 downto 0);
 begin
 	M(n)			<=	X;																	-- load X into N
 	Z(n)			<=	(others => '0');												-- initial value of Z is 0

@@ -27,25 +27,25 @@
 # Modifying modelsim.ini
 # vcom -93 -work altera {/comelec/softs/opt/altera/current/quartus/eda/sim_lib/altera_syn_attributes.vhd}
 # QuestaSim-64 vcom 2020.3 Compiler 2020.07 Jul 12 2020
-# Start time: 11:56:26 on Nov 28,2022
+# Start time: 15:24:02 on Nov 29,2022
 # vcom -reportprogress 300 -93 -work altera /comelec/softs/opt/altera/current/quartus/eda/sim_lib/altera_syn_attributes.vhd 
 # -- Loading package STANDARD
 # -- Compiling package altera_syn_attributes
-# End time: 11:56:26 on Nov 28,2022, Elapsed time: 0:00:00
+# End time: 15:24:03 on Nov 29,2022, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 0
 # vcom -93 -work altera {/comelec/softs/opt/altera/current/quartus/eda/sim_lib/altera_standard_functions.vhd}
 # QuestaSim-64 vcom 2020.3 Compiler 2020.07 Jul 12 2020
-# Start time: 11:56:27 on Nov 28,2022
+# Start time: 15:24:03 on Nov 29,2022
 # vcom -reportprogress 300 -93 -work altera /comelec/softs/opt/altera/current/quartus/eda/sim_lib/altera_standard_functions.vhd 
 # -- Loading package STANDARD
 # -- Compiling package altera_standard_functions
 # -- Compiling package body altera_standard_functions
 # -- Loading package altera_standard_functions
-# End time: 11:56:27 on Nov 28,2022, Elapsed time: 0:00:00
+# End time: 15:24:03 on Nov 29,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vcom -93 -work altera {/comelec/softs/opt/altera/current/quartus/eda/sim_lib/alt_dspbuilder_package.vhd}
 # QuestaSim-64 vcom 2020.3 Compiler 2020.07 Jul 12 2020
-# Start time: 11:56:27 on Nov 28,2022
+# Start time: 15:24:03 on Nov 29,2022
 # vcom -reportprogress 300 -93 -work altera /comelec/softs/opt/altera/current/quartus/eda/sim_lib/alt_dspbuilder_package.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -54,11 +54,11 @@
 # -- Compiling package alt_dspbuilder_package
 # -- Compiling package body alt_dspbuilder_package
 # -- Loading package alt_dspbuilder_package
-# End time: 11:56:27 on Nov 28,2022, Elapsed time: 0:00:00
+# End time: 15:24:04 on Nov 29,2022, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 0
 # vcom -93 -work altera {/comelec/softs/opt/altera/current/quartus/eda/sim_lib/altera_europa_support_lib.vhd}
 # QuestaSim-64 vcom 2020.3 Compiler 2020.07 Jul 12 2020
-# Start time: 11:56:27 on Nov 28,2022
+# Start time: 15:24:04 on Nov 29,2022
 # vcom -reportprogress 300 -93 -work altera /comelec/softs/opt/altera/current/quartus/eda/sim_lib/altera_europa_support_lib.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -69,11 +69,11 @@
 # -- Compiling package altera_europa_support_lib
 # -- Compiling package body altera_europa_support_lib
 # -- Loading package altera_europa_support_lib
-# End time: 11:56:27 on Nov 28,2022, Elapsed time: 0:00:00
+# End time: 15:24:04 on Nov 29,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vcom -93 -work altera {/comelec/softs/opt/altera/current/quartus/eda/sim_lib/altera_primitives_components.vhd}
 # QuestaSim-64 vcom 2020.3 Compiler 2020.07 Jul 12 2020
-# Start time: 11:56:27 on Nov 28,2022
+# Start time: 15:24:04 on Nov 29,2022
 # vcom -reportprogress 300 -93 -work altera /comelec/softs/opt/altera/current/quartus/eda/sim_lib/altera_primitives_components.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -83,11 +83,11 @@
 # -- Compiling package dffeas_pack
 # -- Loading package dffeas_pack
 # -- Compiling package altera_primitives_components
-# End time: 11:56:27 on Nov 28,2022, Elapsed time: 0:00:00
+# End time: 15:24:04 on Nov 29,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vcom -93 -work altera {/comelec/softs/opt/altera/current/quartus/eda/sim_lib/altera_primitives.vhd}
 # QuestaSim-64 vcom 2020.3 Compiler 2020.07 Jul 12 2020
-# Start time: 11:56:27 on Nov 28,2022
+# Start time: 15:24:04 on Nov 29,2022
 # vcom -reportprogress 300 -93 -work altera /comelec/softs/opt/altera/current/quartus/eda/sim_lib/altera_primitives.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -175,7 +175,7 @@
 # -- Compiling architecture BEHAVIOR of alt_bidir_diff
 # -- Compiling entity alt_bidir_buf
 # -- Compiling architecture BEHAVIOR of alt_bidir_buf
-# End time: 11:56:28 on Nov 28,2022, Elapsed time: 0:00:01
+# End time: 15:24:05 on Nov 29,2022, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 0
 # 
 # vlib vhdl_libs/lpm
@@ -187,17 +187,17 @@
 # Modifying modelsim.ini
 # vcom -93 -work lpm {/comelec/softs/opt/altera/current/quartus/eda/sim_lib/220pack.vhd}
 # QuestaSim-64 vcom 2020.3 Compiler 2020.07 Jul 12 2020
-# Start time: 11:56:28 on Nov 28,2022
+# Start time: 15:24:05 on Nov 29,2022
 # vcom -reportprogress 300 -93 -work lpm /comelec/softs/opt/altera/current/quartus/eda/sim_lib/220pack.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
 # -- Compiling package LPM_COMPONENTS
-# End time: 11:56:28 on Nov 28,2022, Elapsed time: 0:00:00
+# End time: 15:24:05 on Nov 29,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vcom -93 -work lpm {/comelec/softs/opt/altera/current/quartus/eda/sim_lib/220model.vhd}
 # QuestaSim-64 vcom 2020.3 Compiler 2020.07 Jul 12 2020
-# Start time: 11:56:28 on Nov 28,2022
+# Start time: 15:24:05 on Nov 29,2022
 # vcom -reportprogress 300 -93 -work lpm /comelec/softs/opt/altera/current/quartus/eda/sim_lib/220model.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -293,7 +293,7 @@
 # -- Compiling architecture LPM_SYN of LPM_OUTpad
 # -- Compiling entity LPM_BIpad
 # -- Compiling architecture LPM_SYN of LPM_BIpad
-# End time: 11:56:29 on Nov 28,2022, Elapsed time: 0:00:01
+# End time: 15:24:05 on Nov 29,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # 
 # vlib vhdl_libs/sgate
@@ -305,7 +305,7 @@
 # Modifying modelsim.ini
 # vcom -93 -work sgate {/comelec/softs/opt/altera/current/quartus/eda/sim_lib/sgate_pack.vhd}
 # QuestaSim-64 vcom 2020.3 Compiler 2020.07 Jul 12 2020
-# Start time: 11:56:29 on Nov 28,2022
+# Start time: 15:24:06 on Nov 29,2022
 # vcom -reportprogress 300 -93 -work sgate /comelec/softs/opt/altera/current/quartus/eda/sim_lib/sgate_pack.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -313,11 +313,11 @@
 # -- Compiling package sgate_pack
 # -- Compiling package body sgate_pack
 # -- Loading package sgate_pack
-# End time: 11:56:29 on Nov 28,2022, Elapsed time: 0:00:00
+# End time: 15:24:06 on Nov 29,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vcom -93 -work sgate {/comelec/softs/opt/altera/current/quartus/eda/sim_lib/sgate.vhd}
 # QuestaSim-64 vcom 2020.3 Compiler 2020.07 Jul 12 2020
-# Start time: 11:56:29 on Nov 28,2022
+# Start time: 15:24:06 on Nov 29,2022
 # vcom -reportprogress 300 -93 -work sgate /comelec/softs/opt/altera/current/quartus/eda/sim_lib/sgate.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -367,7 +367,7 @@
 # -- Compiling architecture sim_arch of oper_bus_mux
 # -- Compiling entity oper_latch
 # -- Compiling architecture sim_arch of oper_latch
-# End time: 11:56:29 on Nov 28,2022, Elapsed time: 0:00:00
+# End time: 15:24:06 on Nov 29,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # 
 # vlib vhdl_libs/altera_mf
@@ -379,17 +379,17 @@
 # Modifying modelsim.ini
 # vcom -93 -work altera_mf {/comelec/softs/opt/altera/current/quartus/eda/sim_lib/altera_mf_components.vhd}
 # QuestaSim-64 vcom 2020.3 Compiler 2020.07 Jul 12 2020
-# Start time: 11:56:30 on Nov 28,2022
+# Start time: 15:24:06 on Nov 29,2022
 # vcom -reportprogress 300 -93 -work altera_mf /comelec/softs/opt/altera/current/quartus/eda/sim_lib/altera_mf_components.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
 # -- Compiling package altera_mf_components
-# End time: 11:56:30 on Nov 28,2022, Elapsed time: 0:00:00
+# End time: 15:24:06 on Nov 29,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vcom -93 -work altera_mf {/comelec/softs/opt/altera/current/quartus/eda/sim_lib/altera_mf.vhd}
 # QuestaSim-64 vcom 2020.3 Compiler 2020.07 Jul 12 2020
-# Start time: 11:56:30 on Nov 28,2022
+# Start time: 15:24:06 on Nov 29,2022
 # vcom -reportprogress 300 -93 -work altera_mf /comelec/softs/opt/altera/current/quartus/eda/sim_lib/altera_mf.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -628,7 +628,7 @@
 # -- Compiling architecture sim_sld_virtual_jtag_basic of sld_virtual_jtag_basic
 # -- Compiling entity altsource_probe
 # -- Compiling architecture sim_altsource_probe of altsource_probe
-# End time: 11:56:31 on Nov 28,2022, Elapsed time: 0:00:01
+# End time: 15:24:07 on Nov 29,2022, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 0
 # 
 # vlib vhdl_libs/altera_lnsim
@@ -640,21 +640,21 @@
 # Modifying modelsim.ini
 # vlog -sv -work altera_lnsim {/comelec/softs/opt/altera/current/quartus/eda/sim_lib/mentor/altera_lnsim_for_vhdl.sv}
 # QuestaSim-64 vlog 2020.3 Compiler 2020.07 Jul 12 2020
-# Start time: 11:56:31 on Nov 28,2022
+# Start time: 15:24:08 on Nov 29,2022
 # vlog -reportprogress 300 -sv -work altera_lnsim /comelec/softs/opt/altera/current/quartus/eda/sim_lib/mentor/altera_lnsim_for_vhdl.sv 
 # 
 # Top level modules:
-# End time: 11:56:32 on Nov 28,2022, Elapsed time: 0:00:01
+# End time: 15:24:08 on Nov 29,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vcom -93 -work altera_lnsim {/comelec/softs/opt/altera/current/quartus/eda/sim_lib/altera_lnsim_components.vhd}
 # QuestaSim-64 vcom 2020.3 Compiler 2020.07 Jul 12 2020
-# Start time: 11:56:32 on Nov 28,2022
+# Start time: 15:24:08 on Nov 29,2022
 # vcom -reportprogress 300 -93 -work altera_lnsim /comelec/softs/opt/altera/current/quartus/eda/sim_lib/altera_lnsim_components.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
 # -- Compiling package altera_lnsim_components
-# End time: 11:56:32 on Nov 28,2022, Elapsed time: 0:00:00
+# End time: 15:24:08 on Nov 29,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # 
 # vlib vhdl_libs/cyclonev
@@ -666,15 +666,15 @@
 # Modifying modelsim.ini
 # vlog -vlog01compat -work cyclonev {/comelec/softs/opt/altera/current/quartus/eda/sim_lib/mentor/cyclonev_atoms_ncrypt.v}
 # QuestaSim-64 vlog 2020.3 Compiler 2020.07 Jul 12 2020
-# Start time: 11:56:33 on Nov 28,2022
+# Start time: 15:24:09 on Nov 29,2022
 # vlog -reportprogress 300 -vlog01compat -work cyclonev /comelec/softs/opt/altera/current/quartus/eda/sim_lib/mentor/cyclonev_atoms_ncrypt.v 
 # 
 # Top level modules:
-# End time: 11:56:34 on Nov 28,2022, Elapsed time: 0:00:01
+# End time: 15:24:10 on Nov 29,2022, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 0
 # vcom -93 -work cyclonev {/comelec/softs/opt/altera/current/quartus/eda/sim_lib/cyclonev_atoms.vhd}
 # QuestaSim-64 vcom 2020.3 Compiler 2020.07 Jul 12 2020
-# Start time: 11:56:34 on Nov 28,2022
+# Start time: 15:24:10 on Nov 29,2022
 # vcom -reportprogress 300 -93 -work cyclonev /comelec/softs/opt/altera/current/quartus/eda/sim_lib/cyclonev_atoms.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -814,11 +814,11 @@
 # -- Compiling architecture behavior of cyclonev_ir_fifo_userdes
 # -- Compiling entity cyclonev_oscillator
 # -- Compiling architecture behavior of cyclonev_oscillator
-# End time: 11:56:35 on Nov 28,2022, Elapsed time: 0:00:01
+# End time: 15:24:10 on Nov 29,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 1
 # vcom -93 -work cyclonev {/comelec/softs/opt/altera/current/quartus/eda/sim_lib/cyclonev_components.vhd}
 # QuestaSim-64 vcom 2020.3 Compiler 2020.07 Jul 12 2020
-# Start time: 11:56:35 on Nov 28,2022
+# Start time: 15:24:10 on Nov 29,2022
 # vcom -reportprogress 300 -93 -work cyclonev /comelec/softs/opt/altera/current/quartus/eda/sim_lib/cyclonev_components.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -827,7 +827,7 @@
 # -- Loading package VITAL_Primitives
 # -- Loading package cyclonev_atom_pack
 # -- Compiling package cyclonev_components
-# End time: 11:56:35 on Nov 28,2022, Elapsed time: 0:00:00
+# End time: 15:24:11 on Nov 29,2022, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 0
 # 
 # vlib vhdl_libs/cyclonev_hssi
@@ -839,7 +839,7 @@
 # Modifying modelsim.ini
 # vcom -93 -work cyclonev_hssi {/comelec/softs/opt/altera/current/quartus/eda/sim_lib/cyclonev_hssi_components.vhd}
 # QuestaSim-64 vcom 2020.3 Compiler 2020.07 Jul 12 2020
-# Start time: 11:56:35 on Nov 28,2022
+# Start time: 15:24:11 on Nov 29,2022
 # vcom -reportprogress 300 -93 -work cyclonev_hssi /comelec/softs/opt/altera/current/quartus/eda/sim_lib/cyclonev_hssi_components.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -847,19 +847,19 @@
 # -- Compiling package CYCLONEV_HSSI_COMPONENTS
 # -- Compiling package body CYCLONEV_HSSI_COMPONENTS
 # -- Loading package CYCLONEV_HSSI_COMPONENTS
-# End time: 11:56:36 on Nov 28,2022, Elapsed time: 0:00:01
+# End time: 15:24:11 on Nov 29,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work cyclonev_hssi {/comelec/softs/opt/altera/current/quartus/eda/sim_lib/mentor/cyclonev_hssi_atoms_ncrypt.v}
 # QuestaSim-64 vlog 2020.3 Compiler 2020.07 Jul 12 2020
-# Start time: 11:56:36 on Nov 28,2022
+# Start time: 15:24:11 on Nov 29,2022
 # vlog -reportprogress 300 -vlog01compat -work cyclonev_hssi /comelec/softs/opt/altera/current/quartus/eda/sim_lib/mentor/cyclonev_hssi_atoms_ncrypt.v 
 # 
 # Top level modules:
-# End time: 11:56:37 on Nov 28,2022, Elapsed time: 0:00:01
+# End time: 15:24:12 on Nov 29,2022, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 0
 # vcom -93 -work cyclonev_hssi {/comelec/softs/opt/altera/current/quartus/eda/sim_lib/cyclonev_hssi_atoms.vhd}
 # QuestaSim-64 vcom 2020.3 Compiler 2020.07 Jul 12 2020
-# Start time: 11:56:37 on Nov 28,2022
+# Start time: 15:24:12 on Nov 29,2022
 # vcom -reportprogress 300 -93 -work cyclonev_hssi /comelec/softs/opt/altera/current/quartus/eda/sim_lib/cyclonev_hssi_atoms.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -913,7 +913,7 @@
 # -- Compiling architecture behavior of cyclonev_hssi_pma_hi_pmaif
 # -- Compiling entity cyclonev_hssi_pma_hi_xcvrif
 # -- Compiling architecture behavior of cyclonev_hssi_pma_hi_xcvrif
-# End time: 11:56:38 on Nov 28,2022, Elapsed time: 0:00:01
+# End time: 15:24:12 on Nov 29,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # 
 # if {[file exists rtl_work]} {
@@ -925,25 +925,38 @@
 # vmap work rtl_work 
 # Modifying modelsim.ini
 # 
-# vcom -93 -work work {/cal/exterieurs/thien-22/Desktop/02_ICS/ADE/MProject/square_root_a2.vhd}
+# vcom -93 -work work {/cal/exterieurs/thien-22/Desktop/02_ICS/ADE/MProject/register_a5.vhd}
 # QuestaSim-64 vcom 2020.3 Compiler 2020.07 Jul 12 2020
-# Start time: 11:56:38 on Nov 28,2022
-# vcom -reportprogress 300 -93 -work work /cal/exterieurs/thien-22/Desktop/02_ICS/ADE/MProject/square_root_a2.vhd 
+# Start time: 15:24:13 on Nov 29,2022
+# vcom -reportprogress 300 -93 -work work /cal/exterieurs/thien-22/Desktop/02_ICS/ADE/MProject/register_a5.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity register_a5
+# -- Compiling architecture a1 of register_a5
+# End time: 15:24:13 on Nov 29,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {/cal/exterieurs/thien-22/Desktop/02_ICS/ADE/MProject/square_root_a5.vhd}
+# QuestaSim-64 vcom 2020.3 Compiler 2020.07 Jul 12 2020
+# Start time: 15:24:13 on Nov 29,2022
+# vcom -reportprogress 300 -93 -work work /cal/exterieurs/thien-22/Desktop/02_ICS/ADE/MProject/square_root_a5.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
 # -- Loading package NUMERIC_STD
 # -- Compiling entity square_root
-# -- Compiling architecture a2 of square_root
-# ** Warning: /cal/exterieurs/thien-22/Desktop/02_ICS/ADE/MProject/square_root_a2.vhd(32): (vcom-1048) Non-locally static choice (association #1, choice #1) is allowed only if it is the only choice of the only association.
-# ** Warning: /cal/exterieurs/thien-22/Desktop/02_ICS/ADE/MProject/square_root_a2.vhd(44): (vcom-1048) Non-locally static choice (association #1, choice #1) is allowed only if it is the only choice of the only association.
-# End time: 11:56:38 on Nov 28,2022, Elapsed time: 0:00:00
+# -- Compiling architecture a5 of square_root
+# -- Loading entity register_a5
+# ** Warning: /cal/exterieurs/thien-22/Desktop/02_ICS/ADE/MProject/square_root_a5.vhd(105): (vcom-1048) Non-locally static choice (association #1, choice #1) is allowed only if it is the only choice of the only association.
+# ** Warning: /cal/exterieurs/thien-22/Desktop/02_ICS/ADE/MProject/square_root_a5.vhd(127): (vcom-1074) Non-locally static OTHERS choice is allowed only if it is the only choice of the only association.
+# End time: 15:24:13 on Nov 29,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 2
 # 
-# vcom -93 -work work {/cal/exterieurs/thien-22/Desktop/02_ICS/ADE/MProject/tb_square_root_a1+a2.vhd}
+# vcom -93 -work work {/cal/exterieurs/thien-22/Desktop/02_ICS/ADE/MProject/tb_square_root_a5.vhd}
 # QuestaSim-64 vcom 2020.3 Compiler 2020.07 Jul 12 2020
-# Start time: 11:56:38 on Nov 28,2022
-# vcom -reportprogress 300 -93 -work work /cal/exterieurs/thien-22/Desktop/02_ICS/ADE/MProject/tb_square_root_a1+a2.vhd 
+# Start time: 15:24:13 on Nov 29,2022
+# vcom -reportprogress 300 -93 -work work /cal/exterieurs/thien-22/Desktop/02_ICS/ADE/MProject/tb_square_root_a5.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
@@ -951,30 +964,32 @@
 # -- Compiling entity tb_square_root
 # -- Compiling architecture a1 of tb_square_root
 # -- Loading entity square_root
-# ** Warning: /cal/exterieurs/thien-22/Desktop/02_ICS/ADE/MProject/tb_square_root_a1+a2.vhd(31): (vcom-1074) Non-locally static OTHERS choice is allowed only if it is the only choice of the only association.
-# ** Warning: /cal/exterieurs/thien-22/Desktop/02_ICS/ADE/MProject/tb_square_root_a1+a2.vhd(32): (vcom-1074) Non-locally static OTHERS choice is allowed only if it is the only choice of the only association.
-# ** Warning: /cal/exterieurs/thien-22/Desktop/02_ICS/ADE/MProject/tb_square_root_a1+a2.vhd(33): (vcom-1074) Non-locally static OTHERS choice is allowed only if it is the only choice of the only association.
-# ** Warning: /cal/exterieurs/thien-22/Desktop/02_ICS/ADE/MProject/tb_square_root_a1+a2.vhd(34): (vcom-1074) Non-locally static OTHERS choice is allowed only if it is the only choice of the only association.
-# ** Warning: /cal/exterieurs/thien-22/Desktop/02_ICS/ADE/MProject/tb_square_root_a1+a2.vhd(35): (vcom-1074) Non-locally static OTHERS choice is allowed only if it is the only choice of the only association.
-# End time: 11:56:38 on Nov 28,2022, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 5
+# ** Warning: /cal/exterieurs/thien-22/Desktop/02_ICS/ADE/MProject/tb_square_root_a5.vhd(31): (vcom-1074) Non-locally static OTHERS choice is allowed only if it is the only choice of the only association.
+# ** Warning: /cal/exterieurs/thien-22/Desktop/02_ICS/ADE/MProject/tb_square_root_a5.vhd(32): (vcom-1074) Non-locally static OTHERS choice is allowed only if it is the only choice of the only association.
+# ** Warning: /cal/exterieurs/thien-22/Desktop/02_ICS/ADE/MProject/tb_square_root_a5.vhd(33): (vcom-1074) Non-locally static OTHERS choice is allowed only if it is the only choice of the only association.
+# ** Warning: /cal/exterieurs/thien-22/Desktop/02_ICS/ADE/MProject/tb_square_root_a5.vhd(34): (vcom-1074) Non-locally static OTHERS choice is allowed only if it is the only choice of the only association.
+# End time: 15:24:13 on Nov 29,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 4
 # 
 # vsim -t 1ps -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L cyclonev -L cyclonev_hssi -L rtl_work -L work -voptargs="+acc"  tb_square_root
 # vsim -t 1ps -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L cyclonev -L cyclonev_hssi -L rtl_work -L work -voptargs=""+acc"" tb_square_root 
-# Start time: 11:56:38 on Nov 28,2022
+# Start time: 15:24:13 on Nov 29,2022
 # ** Note: (vsim-3812) Design is being optimized...
-# ** Note: (vopt-143) Recognized 1 FSM in architecture body "square_root(a2)".
+# ** Note: (vopt-143) Recognized 1 FSM in architecture body "square_root(a5)".
 # Loading std.standard
 # Loading std.textio(body)
 # Loading ieee.std_logic_1164(body)
 # Loading ieee.numeric_std(body)
 # Loading work.tb_square_root(a1)#1
-# Loading work.square_root(a2)#1
+# Loading work.square_root(a5)#1
+# Loading work.register_a5(a1)#1
 # 
 # add wave *
 # view structure
 # .main_pane.structure.interior.cs.body.struct
 # view signals
 # .main_pane.objects.interior.cs.body.tree
-# run 10 us
+# run 50 us
 # Causality operation skipped due to absence of debug database file
+# End time: 15:29:59 on Nov 29,2022, Elapsed time: 0:05:46
+# Errors: 0, Warnings: 0
